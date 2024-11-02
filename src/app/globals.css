@@ -1,21 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(0deg, transparent 31px, #34aab9 32px), linear-gradient(90deg, transparent 31px, #34aab9 32px);
+  background-size: 32px 32px;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.image {
+  object-fit: contain;
+  position: relative !important;
+  width: auto !important;
+}
+
+a.myLink {
+  @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
 }

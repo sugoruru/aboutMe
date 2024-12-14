@@ -53,14 +53,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <LinkBox
-          title="My Works"
-          data={[
-            { title: "TellPro", img: "/TellPro.png", description: "競技プログラマー向け記事投稿サイト", link: "https://tellpro.net" },
-            { title: "Pomosk", img: "/Pomosk.png", description: "ポモドーロ法でのタスク管理アプリ", link: "https://pomosk.tellpro.net" },
-          ]}
-          key="My Works"
-        />
+        <LinkBox title="My Works" data={[{ title: "TellPro", img: "/TellPro.png", description: "競技プログラマー向け記事投稿サイト", link: "https://tellpro.net" }]} key="My Works" />
         <LinkBox
           title="Social Link"
           data={[

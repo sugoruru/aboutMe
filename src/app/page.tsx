@@ -165,6 +165,12 @@ export default function Home() {
 							description: "QCoderの問題でACのものに色がつきます",
 							link: "https://greasyfork.org/ja/scripts/537422-qcoder-ac-problem",
 						},
+						{
+							title: "AC-Rotate",
+							img: "/atcoder.svg",
+							description: "AtCoderのAC等のラベルが回転します",
+							link: "https://greasyfork.org/ja/scripts/537633-ac-rotate",
+						},
 					]}
 					key="Chorome Extensions"
 				/>

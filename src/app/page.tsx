@@ -171,6 +171,12 @@ export default function Home() {
 							description: "AtCoderのAC等のラベルが回転します",
 							link: "https://greasyfork.org/ja/scripts/537633-ac-rotate",
 						},
+						{
+							title: "AtCoder-Favorite-Person-Colors",
+							img: "/atcoder.svg",
+							description: "AtCoderのお気に入り管理のユーザーに色がつきます",
+							link: "https://greasyfork.org/ja/scripts/539986-atcoder-favorite-person-colors",
+						},
 					]}
 					key="Chorome Extensions"
 				/>
